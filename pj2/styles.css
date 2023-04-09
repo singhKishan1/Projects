@@ -1,0 +1,180 @@
+body {
+  background: linear-gradient(to right, rgb(139, 218, 220), pink);
+}
+
+.parent-container {
+  width: 70%;
+  height: 1000px;
+  background-color: black;
+
+  margin: 4rem auto;
+  border-radius: 15px;
+  padding-top: 1rem;
+}
+
+/* Navigation Bar */
+.navbar {
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5%;
+}
+
+.nav-brand {
+  font-weight: bolder;
+}
+
+.nav-items {
+  margin-top: 2%;
+  border-radius: 6px;
+  padding-top:0.1%;
+}
+
+.nav-items:hover{
+  box-shadow: 1px 2px 5px 10px aqua;
+}
+
+.nav-items a {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 6px;
+  background-color: white;
+  border-color: white;
+}
+.btn:hover {
+  background-color: aqua;
+}
+
+.search input {
+  margin-top: 10%;
+  height: 70%;
+}
+.search input:focus {
+  background-color: aqua;
+}
+
+.search input {
+  border-radius: 20px;
+  border-color: white;
+}
+
+/* Conainers */
+
+.container {
+  display: flex;
+  margin: 0 9rem;
+  color: white;
+
+}
+
+.red {
+  background-image: url("./images/sergio.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 13rem;
+  width: 13rem;
+  margin: 3rem 1rem;
+  border-radius: 10px;
+  box-shadow:1px 2px 5px 6px black inset;
+
+}
+
+.blue {
+  height: 13rem;
+  width: 13rem;
+
+  margin: 3rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+}
+
+.blue-items {
+  height: 1.5rem;
+  font-size: 0.5rem;
+  font-weight: 500;
+  margin: 0.2rem;
+  padding-top: 7px;
+  border: solid;
+  border-radius: 6px;
+  border-width: 1px;
+}
+
+.blue-items:hover {
+  box-shadow: 1px 2px 5px 6px white;
+}
+
+.blue-items a {
+  text-decoration: none;
+  color: white;
+}
+
+.content {
+  width: 30rem;
+  height: auto;
+  margin: 3rem 1rem;
+  color: white;
+  line-height: 2rem;
+}
+.content p {
+  font-size: 0.9rem;
+}
+
+/* Mid container parts */
+
+.md-cnt {
+  background-image: url("./images/Earth.jpg");
+}
+
+.mid-container {
+  /* border:solid white; */
+  color: white;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.project-contents {
+  /* border: solid white; */
+  margin: 4rem 9rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.project-contents a {
+  text-decoration: none;
+  color: white;
+}
+.project-contents a h4 {
+  margin: 0;
+}
+
+/* Contact-Me parts */
+
+.contact-me {
+  /* border: solid white; */
+  color: white;
+  margin: 0 9rem;
+  text-align: center;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+}
+
+.form-item input {
+  height: 1.5rem;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+.form-item input:focus {
+  background-color: rgb(215, 115, 243);
+}
